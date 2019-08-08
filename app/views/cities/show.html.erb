@@ -1,5 +1,6 @@
 <p id="notice"><%= notice %></p>
 
+<%= link_to city_path(@city) do %>
 <h1 class="page-title"><%= @city. name %></h1>
 
 <div class="content-grid">
@@ -8,6 +9,7 @@
    <div class="content-image"><%= image_tag review.picture.variant(resize: "300x300") %></div>
    <div class="content-title"><%= review.title %></div> 
    </div>
+  <% end %>
 <% end %>
 </div>
 <%= link_to 'Edit', edit_city_path(@city) %> | 
