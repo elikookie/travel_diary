@@ -14,7 +14,7 @@ body{
     #content{
     width: 80%; background-color: #FFF;
     }
-    .content-grid{ width: 70%;
+    .content-grid{ width: 80%;
      }
     .content-block{ display: inline-block; margin-top: 2em; margin-left: 1.5em;
     }
